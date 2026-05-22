@@ -1,8 +1,9 @@
-# developer-strategy
-Strategier og retningslinjer ved utvikling av programvare i Utdanningsetaten.
+# Veiledere for utvikling og forvaltning av programvare i UDA
 
-[Retningslinjer for all utvikling av programvare i UDA](retningslinjer.md)
+En liten samling av dokumenter og huskelister kan være nyttig når man har ansvar for programvare i Utdanningsetaten. Enten man er prosjektleder, utvikler, drifter, systemeier, konsulent eller superbruker.
 
-[Ekstra greier å passe på dersom repoet er public](retningslinjer-OS.md)
+- [Systemutvikling](system-development.md)
+- [Retningslinjer for utvikling av programvare i UDA](retningslinjer.md)
+- [Er repoet public? Husk å...](retningslinjer-OS.md)
 
 
