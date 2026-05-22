@@ -13,6 +13,8 @@
   - Et produkt vi kan bruke?
   - Kildekode? Som UDA kan forvalte?
   - UX og UU (hvilket kvalitetsnivå trenger vi)
+  - Dataeierskap (eier vi våre egne data, hvem har tilgang)
+  - Portabilitet (mhp både innhold og selve tjenesten)
 - Finne egnet teknologi
   - UI: Web? Inni Teams? Tykk klient?
   - Rammeverk: Power Platform? Pro code?
