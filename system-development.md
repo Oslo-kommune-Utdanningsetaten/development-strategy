@@ -11,6 +11,7 @@
 - Formulere detaljerte spesifikasjoner av ulike views eller subsystemer (ved behov)
 - System for å tracke status (github? devops?)
 - Hva innebærer leveransen?
+  - Tilpasset hyllevare eller egenutviklet?
   - Et produkt vi kan bruke?
   - Kildekode? Som UDA kan forvalte?
   - UX og UU (hvilket kvalitetsnivå trenger vi)
