@@ -9,6 +9,7 @@
 - Definere MVP
 - Formulere overordnet kravspesifikasjon
 - Formulere detaljerte spesifikasjoner av ulike views eller subsystemer (ved behov)
+- System for å tracke status (github? devops?)
 - Hva innebærer leveransen?
   - Et produkt vi kan bruke?
   - Kildekode? Som UDA kan forvalte?
@@ -19,7 +20,7 @@
   - UI: Web? Inni Teams? Tykk klient?
   - Rammeverk: Power Platform? Pro code?
   - Datalagring: SharePoint? Filer? Database?
-  - Hosting: Self-hosted? GC? AWS? MS?
+  - Hosting: Self-hosted? GC? AWS? Azure?
   - Relevant teknologi - viktig for å finne folk
 - Forvaltning - når programvaren eksisterer, hvem skal
   - Rette feil
@@ -34,11 +35,10 @@
 - Personvern, ROS, DPIA
   - Forvaltning av persondata (GDPR)
 
-
 ### 2. Utvikle
-- System for å tracke status på oppgaver (github? devops?)
+- Prioritere oppgaver
 - Oppfølging av utviklere
-- Tisplan for milepæler, MVP og v1.0
+- Tisplan for milepæler, MVP, v1.0 og evt. senere versjoner
 - Dersom eksterne utivklere: Dagbøter ved manglende respons eller leveranse?
 
 ### 3. Teste programvare 
@@ -48,11 +48,11 @@
 
 ### 4. Rulle ut programvare
 - Levere MVP, deretter bygge ut én og én feature
-- Dersom ekstern utvikler, følge opp vs. kravspesifikasjon
+- Dersom eksterne utviklere, følge opp vs. kravspesifikasjon
 
 ### 5. Drift 
-- Skalering
-- Systemovervåkning
+- Skalering etter behov
+- Systemovervåking
 - Hendelseshåndtering 
 - Kontinuerlig utvikling (tilbake til punkt 2)
 - Dersom eksterne aktører: Dagbøter ved nedetid eller annen svikt?
