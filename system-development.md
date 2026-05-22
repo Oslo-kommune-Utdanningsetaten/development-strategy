@@ -29,6 +29,9 @@
   - Hvem kan bruke tjenesten
   - API-er
   - Lisens/open source
+- Personvern, ROS, DPIA
+  - Forvaltning av persondata (GDPR)
+
 
 ### 2. Utvikle
 - System for å tracke status på oppgaver (github? devops?)
