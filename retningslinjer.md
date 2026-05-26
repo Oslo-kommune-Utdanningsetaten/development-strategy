@@ -38,42 +38,42 @@ Vi bruker Pull Requests og Code Reviews for å produsere god programvare, v.hj.a
 
 ### Stegvis beskrivelse av arbeidsflyten
 
-1. Et tydelig mål
+#### 1. Et tydelig mål
 
 Før du begynner å kode, vær sikker på at du har en tydelig forstålse av formålet med featuren. Les deg opp på issues, eventuelle user stories, og nødvendig dokumentasjon.
 
-2. Opprett en Feature Branch
+#### 2. Opprett en Feature Branch
 
 Lag en ny branch i github for denne ene featuren du skal utivkle. Gi den et navn som andre kan forstå. Bugfiksing som retter opp kode som ligger i main, skal også gjøres i en egen branch. Med mindre det er helt krise og dette må fikses NÅ.
 
-3. Commit og push
+#### 3. Commit og push
 
 Før du publiserer noe kode ut på Internett, enten repo er public eller private, pass på at det ikke er noen personlige eller sensitive data med på lasset. Dette inkluderer passord, API-nøkler, logger, databasedumper, testdata osv.
 
 Når du commiter og pusher til github, sørg for at hver commit gjør én ting og at meldingene som følger med commiten tydelig beskriver hva du har endret. Dersom du har en typo eller ser at du var uklar, husk at `git commit --amend -m "Oppdatert melding"` er din venn.
 
-4. Hyppig synkonisering med main
+#### 4. Hyppig synkonisering med main
 
 Pass på å merge main hyppig inn i din egen feature branch. Dette gjør at du holder deg oppdatert med hva andre driver med, samtidig som det reduserer sjansen for kode-konflikt når du etterhvert er ferdig.
 
-5. Skriv tester
+#### 5. Skriv tester
 
 Skriv automatiserte tester og gi testene tydelige navn. Unit- eller API-tester fungerer både som dokumentasjon og sikkerhetsnett mot regress. Dessuten har testbar kode en tendens til å være enklere å vedlikeholde.
 
-6. Code Reviews
+#### 6. Code Reviews
 
 Når feature branchen din er klar, lag en Pull Request og legg inn minst ett annet team-medlem som reviewer. Dette gir deg viktig feedback, luker ut bugs, holder andre utviklere orientert om hva du lager og sikrer at alle koder etter de samme konvensjonene.
 
 NB: Du trenger naturligvis ikke å lage en PR for å be om feedback.
 
-7. Godkjenning og merge
+#### 7. Godkjenning og merge
 
 Når koden er godkjent og alle tester passerer, merger du branchen din inn i main.
 
-8. Dokumentasjon
+#### 8. Dokumentasjon
 
 Koden du har skrevet bør størst mulig grad være selvdokumenterende, med gjennomtenkte navn på variable, funksjoner, klasser og filer. Dersom det trengs, husk å oppdatere README.md og annen relevant dokumentasjon, som f.eks. https://aktuelt.osloskolen.no/larerik-bruk-av-laringsteknologi/digital-skolehverdag/kunstig-intelligens-ki-i-osloskolen/
 
-9. Release og release notes
+#### 9. Release og release notes
 
 Tag koden med versjon, om nødvendig. Deploy til produksjon. Husk å skrive release notes i relevant forum, dersom noen andre har interesse av endringen du har gjort. Forhåpentligvis er det noen som har det :)
