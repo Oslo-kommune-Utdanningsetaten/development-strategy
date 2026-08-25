@@ -37,11 +37,13 @@
 - Hva er estimert levetid?
 
 ## 2. Utvikle
-- Tisplan for milepæler
-  - MVP, v1.0 og evt. senere versjoner
+- Tisplan for milepæler (feature releases)
+  - Tidsplan for MVP, v1.0 og evt. senere versjoner
 - Prioritere oppgaver
 - Oppfølging av utviklere
-- Dersom eksterne utivklere: Dagbøter ved manglende respons eller leveranse?
+- Løpende dialog med eiere/brukere etterhvert som features tar form
+  - Spesifisere nye oppgaver som kommer til syne
+- Dersom eksterne utviklere: Dagbøter ved manglende respons eller leveranse?
 
 ## 3. Teste 
 - Automatiserte tester av tilgang
